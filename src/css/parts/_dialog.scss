@@ -1,0 +1,148 @@
+/* dialog.scss
+  ------------------------------------------------------------ */
+
+.dialog {
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .dialog-inner {
+    background-color: #011944;
+    border: 1px solid #50c1ff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 232px;
+    height: 0;
+    transition: height 0.3s;
+    transition-delay:0.3s;
+  }
+  .dialog-hdg {
+    font-size: 1.8rem;
+    color: #50C1FF;
+    text-align: center;
+    line-height: 50px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-indent: 1px;
+  }
+  .dialog-thum {
+    width: 100%;
+    height: 138px;
+    background-image: linear-gradient(rgba(80,193,255,0.3) 33%, transparent 33%, transparent);
+    background-size: 100% 3px;
+    background-repeat: repeat-y;
+    animation: profPreviewBgAnim 10s linear infinite;
+    border-top: 1px solid rgba(80,193,255,0.5);
+    border-bottom: 1px solid rgba(80,193,255,0.5);
+    position: relative;
+    .mufo-svg-container {
+      width: 146px;
+      height: auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    svg {
+      height: auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+    }
+    .mufo-svg-parts {
+      width: 146px;
+      transform: translate(-50%, -45%);
+    }
+    .alien-svg-parts {
+      width: 100px;
+      transform: translate(-50%, -57%);
+    }
+  }
+  .dialog-txt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    height: 95px;
+    color: #50C1FF;
+    font-size: 1rem;
+    text-align: center;
+    strong {
+      font-size: 1.2rem;
+    }
+    &.large-txt {
+      font-size: 1.2rem;
+    }
+  }
+  .dialog-btn-list {
+    width: 100%;
+    height: 55px;
+    padding: 0 18px;
+    display: flex;
+    justify-content: space-between;
+    > li {
+      &:first-child {
+        width: 30px;
+        height: 30px;
+        margin-top: 3px;
+        a {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          border: 3px solid #50c1ff;
+          position: relative;
+        }
+        .icon {
+          width: 12px;
+          height: 12px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }
+      &:last-child {
+        width: 140px;
+        height: 36px;
+        a {
+          width: 140px;
+          height: 36px;
+          border-radius: 18px;
+          background-color: #50c1ff;
+          color: #011944;
+          font-size: 1.4rem;
+          line-height: 34px;
+        }
+      }
+    }
+    a {
+      display: block;
+      text-align: center;
+    }
+  }
+  .dialog-btn {
+    padding: 0 18px;
+    a {
+      display: block;
+      text-align: center;
+      height: 36px;
+      border-radius: 18px;
+      background-color: #50c1ff;
+      color: #011944;
+      font-size: 1.4rem;
+      line-height: 34px;
+    }
+  }
+}
+
+#dialog-invitation, #dialog-tutorial, #create-tutorial {
+  &.show .dialog-inner {
+    height: 340px;
+  }
+}
+
+#dialog-confirm {
+  &.show .dialog-inner {
+    height: 156px;
+  }
+}

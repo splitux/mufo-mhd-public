@@ -1,0 +1,14 @@
+<svg id="HOME_SETTING" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.87 10.56">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #50c1ff;
+      }
+    </style>
+  </defs>
+  <title>icon-mail</title>
+  <g>
+    <path class="cls-1" d="M2462.35,1518l-5.18,5.31-0.62.64a1,1,0,0,1-1.44,0l-0.62-.64-5.18-5.31-0.61-.62a0.47,0.47,0,0,0-.81.33v8.83a1,1,0,0,0,1,1h13.87a1,1,0,0,0,1-1v-8.83a0.47,0.47,0,0,0-.81-0.33Z" transform="translate(-2447.89 -1516.99)"/>
+    <path class="cls-1" d="M2450.34,1517l5.13,5.26a0.5,0.5,0,0,0,.72,0l5.13-5.26h-11Z" transform="translate(-2447.89 -1516.99)"/>
+  </g>
+</svg>

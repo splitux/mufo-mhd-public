@@ -1,0 +1,114 @@
+/* default.scss
+------------------------------------------------------------ */
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans CJK JP'),
+    url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff2) format('woff2'),
+    url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff) format('woff'),
+    url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.otf) format('opentype');
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family:'Noto Sans', 'Noto Sans CJK JP', 'Arial', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+menu,
+blockquote,
+caption,
+dd,
+dl,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+legend,
+li,
+ol,
+p,
+pre,
+table,
+td,
+th,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+b,
+em,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  font-weight: bold;
+}
+
+li,
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+fieldset {
+  border: none;
+}
+
+hr {
+  display: none;
+}
+
+button,
+label,
+option,
+select {
+  cursor: pointer;
+}
+
+a,
+button {
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+input, textarea {
+  font-family: 'Arial', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+}
+
+img {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -moz-touch-callout: none;
+  touch-callout: none;
+}
+
+a {
+  color: #50c1ff;
+  text-decoration: none;
+}

@@ -1,0 +1,15 @@
+<svg id="HOME_NOTICE" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.26 12.01">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #50c1ff;
+      }
+    </style>
+  </defs>
+  <title>icon-setting</title>
+  <g>
+    <path class="cls-1" d="M2449.11,2709.17h9.6a1.1,1.1,0,0,0,0-2.2h-9.6A1.1,1.1,0,0,0,2449.11,2709.17Z" transform="translate(-2445.77 -2706.97)"/>
+    <path class="cls-1" d="M2458.7,2716.78h-9.6a1.1,1.1,0,0,0,0,2.2h9.6A1.1,1.1,0,0,0,2458.7,2716.78Z" transform="translate(-2445.77 -2706.97)"/>
+    <path class="cls-1" d="M2460.94,2711.88h-14.06a1.1,1.1,0,0,0,0,2.2h14.06A1.1,1.1,0,1,0,2460.94,2711.88Z" transform="translate(-2445.77 -2706.97)"/>
+  </g>
+</svg>

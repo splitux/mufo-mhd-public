@@ -1,0 +1,10 @@
+// --- clear fix
+
+%clf {
+  zoom : 1;
+  &:after {
+    display : block;
+    clear : both;
+    content : '';
+  }
+}

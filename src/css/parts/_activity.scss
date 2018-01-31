@@ -1,0 +1,74 @@
+/* activity.scss
+  ------------------------------------------------------------ */
+#activity {
+  background-color: rgba(0, 0, 0, 0.6);
+  .activity-inner {
+    background-color: rgba(29,53,97,0.8);
+  }
+  .activity-date {
+    font-size : 1.4rem;
+    line-height : 1;
+    letter-spacing : 0.4px;
+    color : rgba(80, 193, 255, 0.5);
+    margin: 25px 0 6px;
+  }
+  .activity-link {
+    padding: 6px 0;
+    display: block;
+    @extend %clf;
+    .activity-thum {
+      width: 50px;
+      height: 50px;
+      margin-right: 12px;
+      float: left;
+      overflow: hidden;
+      position: relative;
+      background-image: linear-gradient(rgba(80,193,255,0.3) 33%, transparent 33%, transparent);
+      background-size: 100% 3px;
+      background-repeat: repeat-y;
+      animation: profPreviewBgAnim 10s linear infinite;
+      border-top: 1px solid rgba(80,193,255,0.5);
+      border-bottom: 1px solid rgba(80,193,255,0.5);
+      .mufo-svg-container {
+        width: 50px;
+        height: 50px;
+        position: relative;
+      }
+      svg {
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+      }
+      img {
+        position: absolute;
+        height: 100%;
+        width: auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .mufo-svg-parts {
+        width: 40px;
+        height: auto;
+        transform: translate(-50%, -48%);
+      }
+      .alien-svg-parts {
+        width: 25px;
+        height: auto;
+        transform: translate(-50%, -52%);
+      }
+    }
+    .activity-txt {
+      color : #50C1FF;
+      font-size: 1.2rem;
+      line-height: 1.4;
+    }
+  }
+  .activity-no-notif {
+    text-align: center;
+    color : #50C1FF;
+    font-size: 1.2rem;
+    padding-top: 30px;
+  }
+}

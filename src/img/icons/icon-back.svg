@@ -1,0 +1,13 @@
+<svg id="ADD_SONG" data-name="ADD SONG" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.79 14">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #50c1ff;
+      }
+    </style>
+  </defs>
+  <title>icon-back</title>
+  <g id="nav_status_bar" data-name="nav&amp;status_bar">
+    <path class="cls-1" d="M2049.31,1407h-4.14v-2.24c0-.26-0.18-0.42-0.35-0.29l-5.77,4.42a0.39,0.39,0,0,0,0,.58l5.78,4.42c0.17,0.13.35,0,.35-0.29v-2.37h3.39a2.29,2.29,0,0,1,2.2,1.29c0.84,2.37-2.61,4.3-5.27,5.27a0.33,0.33,0,0,0,.15.64,16.76,16.76,0,0,0,6.25-2.11C2056.91,1413.49,2054.71,1407,2049.31,1407Z" transform="translate(-2038.91 -1404.46)"/>
+  </g>
+</svg>

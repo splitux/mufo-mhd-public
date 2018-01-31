@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54" height="54" viewBox="0 0 54 54">
+  <defs>
+    <style>
+      .cls-1 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: url(#名称未設定グラデーション_266);
+      }
+
+      .cls-3, .cls-7, .cls-8 {
+        mix-blend-mode: soft-light;
+      }
+
+      .cls-4, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        opacity: 0.4;
+        mix-blend-mode: multiply;
+        fill: url(#名称未設定グラデーション_258);
+      }
+
+      .cls-6 {
+        opacity: 0.75;
+        mix-blend-mode: overlay;
+      }
+
+      .cls-8 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+    <linearGradient id="名称未設定グラデーション_266" data-name="名称未設定グラデーション 266" x1="27" x2="27" y2="54" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#24d7ff"/>
+      <stop offset="0.06" stop-color="#24d7ff"/>
+      <stop offset="1" stop-color="#24d7ff"/>
+    </linearGradient>
+    <linearGradient id="名称未設定グラデーション_258" data-name="名称未設定グラデーション 258" x1="27" y1="7.05" x2="27" y2="46.95" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#24d7ff"/>
+      <stop offset="1" stop-color="#24d7ff"/>
+    </linearGradient>
+  </defs>
+  <title>btn-add-song</title>
+  <g class="cls-1">
+    <g id="MuFo詳細">
+      <g>
+        <circle class="cls-2" cx="27" cy="27" r="27"/>
+        <g class="cls-3">
+          <path class="cls-4" d="M3694.94,2390.72a25,25,0,1,1-25,25,25,25,0,0,1,25-25m0-2a27,27,0,1,0,27,27,27,27,0,0,0-27-27h0Z" transform="translate(-3667.94 -2388.72)"/>
+        </g>
+        <circle class="cls-5" cx="27" cy="27" r="19.95"/>
+        <g>
+          <g class="cls-6">
+            <path d="M3700.76,2413.52a1.72,1.72,0,0,0,0-2.43l-6.91-6.91a1.72,1.72,0,0,0-2.94,1.22v10.55a5.88,5.88,0,1,0,3.44,5.35v-11.74l4,4A1.72,1.72,0,0,0,3700.76,2413.52Z" transform="translate(-3667.94 -2388.72)"/>
+            <path d="M3706,2423.53h-2.46v-2.46a1.26,1.26,0,1,0-2.52,0v2.46h-2.46a1.26,1.26,0,0,0,0,2.52h2.46v2.46a1.26,1.26,0,1,0,2.52,0v-2.46H3706A1.26,1.26,0,0,0,3706,2423.53Z" transform="translate(-3667.94 -2388.72)"/>
+          </g>
+          <g>
+            <path class="cls-4" d="M3700.76,2412.52a1.72,1.72,0,0,0,0-2.43l-6.91-6.91a1.72,1.72,0,0,0-2.94,1.22v10.55a5.88,5.88,0,1,0,3.44,5.35v-11.74l4,4A1.72,1.72,0,0,0,3700.76,2412.52Z" transform="translate(-3667.94 -2388.72)"/>
+            <path class="cls-4" d="M3706,2422.53h-2.46v-2.46a1.26,1.26,0,1,0-2.52,0v2.46h-2.46a1.26,1.26,0,0,0,0,2.52h2.46v2.46a1.26,1.26,0,1,0,2.52,0v-2.46H3706A1.26,1.26,0,0,0,3706,2422.53Z" transform="translate(-3667.94 -2388.72)"/>
+          </g>
+        </g>
+        <circle class="cls-7" cx="14.41" cy="8.54" r="1.14"/>
+        <path class="cls-8" d="M3680,2399.13a24.14,24.14,0,0,0-5.52,7.18" transform="translate(-3667.94 -2388.72)"/>
+      </g>
+    </g>
+  </g>
+</svg>

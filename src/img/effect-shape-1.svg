@@ -1,0 +1,12 @@
+<svg id="PC" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        opacity: 0.2;
+      }
+    </style>
+  </defs>
+  <title>effect-shape-1</title>
+  <path class="cls-1" d="M386,3019.12h0a14.72,14.72,0,0,0,10,10h0a14.72,14.72,0,0,0-10,10h0a14.72,14.72,0,0,0-10-10h0a14.72,14.72,0,0,0,10-10h0Z" transform="translate(-375.98 -3019.12)"/>
+</svg>

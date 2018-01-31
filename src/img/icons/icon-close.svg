@@ -1,0 +1,11 @@
+<svg id="HOME_SETTING" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #50c1ff;
+      }
+    </style>
+  </defs>
+  <title>icon-close</title>
+  <path class="cls-1" d="M2455.42,1411.31l4-4a1.17,1.17,0,1,0-1.66-1.66l-4,4-4-4a1.17,1.17,0,1,0-1.66,1.66l4,4-4,4a1.17,1.17,0,0,0,1.66,1.66l4-4,4,4a1.17,1.17,0,1,0,1.66-1.66Z" transform="translate(-2447.76 -1405.31)"/>
+</svg>

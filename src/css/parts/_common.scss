@@ -1,0 +1,178 @@
+/* common.scss
+  ------------------------------------------------------------ */
+.hdg-1 {
+  line-height: 44px;
+  color: #50c1ff;
+  position: relative;
+  margin-left: 15px;
+  letter-spacing: 1px;
+  .icon {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+  .hdg {
+    padding-left: 25px;
+    font-size: 1.8rem;
+    font-weight: normal;
+  }
+  &.type-1 .icon{
+    width: 16.956px;
+    height: 17.983px;
+  }
+  &.type-2 .icon{
+    width: 18.937px;
+    height: 20px;
+  }
+  &.type-3 .icon{
+    width: 15.66px;
+    height: 16px;
+  }
+}
+
+.btn-list {
+  width: 100%;
+  display: flex;
+  > li {
+    width: 50%;
+    &:first-child a {
+      background-color: #4c607f;
+      color: #fff;
+    }
+    &:last-child a {
+      background-color: #50c1ff;
+      color: #011944;
+    }
+  }
+  a {
+    display: block;
+    line-height: 44px;
+    text-align: center;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    text-indent: 1px;
+  }
+}
+
+.mufo-hdg {
+  height: 72.48px;
+  width: 100%;
+  position: relative;
+  &:after, &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 44.16px;
+    height: 72.48px;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 0 0;
+  }
+  &:after {
+    left: 0;
+    background-image: url('../img/bg-mufo-hdg-l.svg')
+  }
+  &:before {
+    right: 0;
+    background-image: url('../img/bg-mufo-hdg-r.svg');
+  }.mufo-hdg-inner {
+    width: 100%;
+    padding: 14.65px 15px 0;
+    position: relative;
+    z-index: 1;
+  }
+  .hdg {
+    z-index: 1;
+    width: 100%;
+    height: 34px;
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+    background-color: #011944;
+    border-top: 2px solid #50c1ff;
+    border-bottom: 2px solid #50c1ff;
+    text-align: center;
+    line-height: 32px;
+    color: #50c1ff;
+    letter-spacing: 1px;
+    text-indent: 1px;
+  }
+}
+
+.mufo-dj-booth {
+  transform: scale(1.05);
+}
+
+.mufo-grad-1 {
+  background : linear-gradient(90deg, rgba(246, 172, 24, 1) 0%, rgba(246, 181, 24, 1) 10.13%, rgba(246, 213, 24, 1) 50%, rgba(246, 205, 24, 1) 57.23%, rgba(246, 181, 24, 1) 83.71%, rgba(246, 172, 24, 1) 100%);
+}
+
+.mufo-grad-2 {
+  background : linear-gradient(90deg, rgba(254, 53, 111, 1) 0%, rgba(255, 130, 184, 1) 50%, rgba(255, 126, 180, 1) 52.1%, rgba(254, 86, 143, 1) 73.06%, rgba(254, 62, 119, 1) 89.76%, rgba(254, 53, 111, 1) 100%);
+}
+
+.mufo-grad-3 {
+  background : linear-gradient(90deg, rgba(30, 87, 255, 1) 0%, rgba(42, 170, 255, 1) 50%, rgba(41, 160, 255, 1) 54.67%, rgba(35, 120, 255, 1) 74.51%, rgba(31, 96, 255, 1) 90.31%, rgba(30, 87, 255, 1) 100%);
+}
+
+.mufo-grad-4 {
+  background : linear-gradient(90deg, rgba(160, 54, 216, 1) 0%, rgba(198, 98, 238, 1) 27.3%, rgba(226, 130, 255, 1) 50%, rgba(160, 54, 216, 1) 100%);
+}
+
+.mufo-grad-5 {
+  background : linear-gradient(90deg, rgba(20, 168, 0, 1) 0%, rgba(129, 196, 0, 1) 47.85%, rgba(91, 186, 0, 1) 64.31%, rgba(40, 173, 0, 1) 88.23%, rgba(20, 168, 0, 1) 100%);
+}
+
+.mufo-grad-6 {
+  background : linear-gradient(90deg, rgba(51, 51, 51, 1) 0%, rgba(119, 119, 119, 1) 50%, rgba(87, 87, 87, 1) 68.2%, rgba(61, 61, 61, 1) 86.51%, rgba(51, 51, 51, 1) 97.42%, rgba(55, 56, 56, 1) 97.67%, rgba(73, 80, 80, 1) 99.11%, rgba(80, 89, 89, 1) 100%);
+}
+
+[class^="mufo-pattern-"],
+[class*=" mufo-pattern-"] {
+  &:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    background-repeat: repeat;
+    background-position: 0 0;
+  }
+}
+
+.mufo-pattern-1:before {
+  background-image: url('../img/bg-mufo-pattern-1.png');
+  background-size: 152px 152px;
+}
+
+.mufo-pattern-2:before {
+  background-image: url('../img/bg-mufo-pattern-2.png');
+  background-size: 152px 146px;
+}
+
+.mufo-pattern-3:before {
+  background-image: url('../img/bg-mufo-pattern-3.png');
+  background-size: 187px 202.5px;
+}
+
+.mufo-pattern-4:before {
+  background-image: url('../img/bg-mufo-pattern-4.png');
+  background-size: 97.5px 79.5px;
+}
+
+.mufo-pattern-5:before {
+  background-image: url('../img/bg-mufo-pattern-5.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mufo-pattern-6:before {
+  background-image: url('../img/bg-mufo-pattern-6.png');
+  background-size: 257.5px 257.5px;
+}

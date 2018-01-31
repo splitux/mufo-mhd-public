@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .cls-1 {
+        isolation: isolate;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #7912ff;
+      }
+
+      .cls-3 {
+        opacity: 0.3;
+        mix-blend-mode: multiply;
+      }
+
+      .cls-4, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-4, .cls-7 {
+        mix-blend-mode: soft-light;
+      }
+
+      .cls-5 {
+        opacity: 0.75;
+        mix-blend-mode: overlay;
+      }
+    </style>
+  </defs>
+  <title>btn-fb</title>
+  <g class="cls-1">
+    <g id="MuFo詳細">
+      <g>
+        <rect class="cls-2" width="30" height="30" rx="15" ry="15"/>
+        <circle class="cls-3" cx="15" cy="15.12" r="10.2"/>
+        <circle class="cls-4" cx="8.28" cy="5.35" r="0.59"/>
+        <path class="cls-4" d="M2497.18,1779.28a0.52,0.52,0,0,1-.47-0.76,13.07,13.07,0,0,1,3-3.93,0.52,0.52,0,0,1,.66.81,12.14,12.14,0,0,0-2.74,3.58A0.52,0.52,0,0,1,2497.18,1779.28Z" transform="translate(-2493 -1768.68)"/>
+        <g id="White">
+          <g class="cls-5">
+            <path d="M2506.57,1791.1V1785h-2.07v-2.39h2.07v-1.76a2.88,2.88,0,0,1,3.08-3.15,17,17,0,0,1,1.85.09v2.13h-1.27a1,1,0,0,0-1.19,1.16v1.52h2.37l-0.31,2.39H2509v6.12h-2.47Z" transform="translate(-2493 -1768.68)"/>
+          </g>
+          <path class="cls-6" d="M2506.57,1790.39v-6.12h-2.07v-2.39h2.07v-1.76a2.88,2.88,0,0,1,3.08-3.15,17,17,0,0,1,1.85.09v2.13h-1.27a1,1,0,0,0-1.19,1.16v1.52h2.37l-0.31,2.39H2509v6.12h-2.47Z" transform="translate(-2493 -1768.68)"/>
+        </g>
+        <g class="cls-7">
+          <path class="cls-6" d="M2508,1770.08a13.6,13.6,0,1,1-13.6,13.6,13.62,13.62,0,0,1,13.6-13.6m0-1.4h0a15,15,0,0,0,0,30h0a15,15,0,0,0,0-30h0Z" transform="translate(-2493 -1768.68)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
